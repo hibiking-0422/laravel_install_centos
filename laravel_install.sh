@@ -16,7 +16,7 @@ sudo yum install -y --enablerepo=remi,remi-php72 php php-devel php-mbstring php-
 sudo systemctl restart httpd.service
 
 #mysql install
-sudo yum remove mariadb-libs
+sudo yum -y remove mariadb-libs
 sudo rm -rf /var/lib/mysql
 rpm -ivh https://dev.mysql.com/get/mysql80-community-release-el7-2.noarch.rpm
 sudo yum install -y mysql-community-server
