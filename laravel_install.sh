@@ -30,9 +30,12 @@ sudo systemctl enable mysqld.service
 #composer
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
+composer global require "laravel/installer"
 
 #laravel install
 sudo yum install -y zip unzip
+sudo yum install -y --enablerepo=remi-php72 php-zip
+
 
 #create test_app
 cd
