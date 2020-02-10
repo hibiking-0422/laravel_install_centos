@@ -15,6 +15,10 @@ $ php artisan serve --host 0.0.0.0
 - マイグレーション
 $ php artisan migrate
 
+- 環境設定
+$ cp .env.example .env
+$ php artisan key:generate
+$ php artisan config:clear
 
 -----mysqlの設定-----
 
