@@ -29,12 +29,3 @@ sudo mv composer.phar /usr/local/bin/composer
 
 #laravel install
 sudo yum install -y zip unzip
-
-
-#create test_app
-cd
-mkdir workspace
-cd workspace
-sudo composer create-project laravel/laravel laravel
-cd laravel
-php artisan serve --host 0.0.0.0
