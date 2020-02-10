@@ -4,6 +4,7 @@
 #update & install
 sudo yum -y update
 sudo yum -y install vim
+sudo yum -y install git
 
 #httpd install
 sudo yum -y install httpd
