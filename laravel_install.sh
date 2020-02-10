@@ -30,3 +30,4 @@ sudo mv composer.phar /usr/local/bin/composer
 
 #laravel install
 sudo yum install -y zip unzip
+composer install
