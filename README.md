@@ -3,6 +3,18 @@
 $bash <(curl -s https://raw.githubusercontent.com/hibiking-0422/laravel_install_centos/master/laravel_install.sh)
 
 ----------------インストール後の設定-------------------
+・laravelコマンド
+
+- pj作成
+$ sudo composer create-project laravel/laravel laravel
+
+- サーバ立ち上げ
+$ php artisan serve --host 0.0.0.0
+
+- マイグレーション
+$ php artisan migrate
+
+
 ・mysqlの設定
 
 1.初期パスワード確認
