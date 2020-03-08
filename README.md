@@ -15,10 +15,10 @@ $ php artisan serve --host 0.0.0.0
 - マイグレーション
 $ php artisan migrate
 
-- 環境設定
-$ cp .env.example .env
-$ php artisan key:generate
-$ php artisan config:clear
+- 環境設定  
+$ cp .env.example .env  
+$ php artisan key:generate  
+$ php artisan config:clear  
 
 
 -プロジェクト作成
@@ -38,8 +38,8 @@ mysql>　 alter user 'root'@'localhost' identified with mysql_native_password by
 4.テストデータベース作成
 mysql> create database testdb;
 
-5.　.envを編集
-$ vi .env
+5.envを編集  
+$ vi .env  
 
 6. migrateコマンド確認
 $ php artisan migrate
