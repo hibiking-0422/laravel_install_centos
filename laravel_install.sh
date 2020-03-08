@@ -30,4 +30,6 @@ sudo mv composer.phar /usr/local/bin/composer
 
 #laravel install
 sudo yum install -y zip unzip
-composer install
+composer global require "laravel/installer"
+sudo yum -y install --enablerepo=remi-php73 php-xml
+
