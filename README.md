@@ -44,9 +44,9 @@ $ vi .env
 6. migrateコマンド確認
 $ php artisan migrate
 
------auth & vue の設定-----
-$composer require laravel/ui
-$php artisan ui vue --auth
-$sudo npm install
-$sudo npm run dev
+-----auth & vue の設定-----  
+$composer require laravel/ui  
+$php artisan ui vue --auth  
+$sudo npm install  
+$sudo npm run dev  
 
