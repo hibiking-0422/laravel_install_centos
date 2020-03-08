@@ -38,7 +38,7 @@ mysql>　 alter user 'root'@'localhost' identified with mysql_native_password by
 4.テストデータベース作成
 mysql> create database testdb;
 
-5.envを編集  
+5.envを編集
 $ vi .env  
 
 6. migrateコマンド確認
