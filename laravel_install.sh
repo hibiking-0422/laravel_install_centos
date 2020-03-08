@@ -33,3 +33,9 @@ sudo yum install -y zip unzip
 composer global require "laravel/installer"
 sudo yum -y install --enablerepo=remi-php73 php-xml
 
+#npm install
+sudo yum install epel-release
+sudo yum install nodejs npm
+sudo npm install -g n
+sudo n latest
+node -v
