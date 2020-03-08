@@ -20,6 +20,10 @@ $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan config:clear
 
+
+-プロジェクト作成
+$composer create-project --prefer-dist laravel/laravel [PJ名]
+
 -----mysqlの設定-----
 
 1.初期パスワード確認
