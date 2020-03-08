@@ -41,7 +41,7 @@ mysql> create database testdb;
 5.envを編集
 $ vi .env  
 
-6. migrateコマンド確認
+6.migrateコマンド確認
 $ php artisan migrate
 
 -----auth & vue の設定-----  
